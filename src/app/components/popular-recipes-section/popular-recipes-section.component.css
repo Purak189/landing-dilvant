@@ -12,7 +12,8 @@
 }
 
 .recipes-header h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 800;
 }
 
 .explore-link {
@@ -79,7 +80,7 @@
   top: 0;
   line-height: 1.2rem;
   padding: 0.7rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   color: #fff;
   border-radius: 0.25rem;
