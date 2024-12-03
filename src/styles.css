@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+/* Estilos globales de normalización */
+
+/* Elimina márgenes y padding por defecto */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Incluye el padding y el borde en las dimensiones de los elementos */
+}
+
+/* Establece una tipografía base consistente */
+body {
+  font-family: "Roboto", serif; /* O la tipografía que prefieras */
+  font-size: 16px; /* Establece el tamaño base de la fuente */
+  line-height: 1.5; /* Mejora la legibilidad */
+  background-color: #fff; /* Color de fondo predeterminado */
+  color: #333; /* Color de texto */
+  text-rendering: optimizeLegibility; /* Mejora la legibilidad en algunos navegadores */
+  -webkit-font-smoothing: antialiased; /* Mejora el suavizado de fuentes en webkit */
+  -moz-osx-font-smoothing: grayscale; /* Mejora el suavizado de fuentes en Firefox */
+}
+
+/* Normaliza los estilos de los enlaces */
+a {
+  text-decoration: none; /* Quita el subrayado */
+  color: inherit; /* Hereda el color del texto */
+}
+
+/* Establece el comportamiento de los elementos de lista */
+ul, ol {
+  list-style: none; /* Elimina las viñetas o numeraciones predeterminadas */
+}
+
+/* Elimina los bordes de los botones */
+button {
+  background: none; /* Elimina el fondo predeterminado */
+  border: none; /* Elimina los bordes predeterminados */
+  cursor: pointer; /* Muestra el cursor de tipo mano */
+}
+
+/* Elimina el contorno de los inputs y elementos interactivos al hacer foco */
+input, button, textarea, select {
+  outline: none; /* Quita el contorno que aparece al hacer foco en algunos navegadores */
+}
+
+/* Resetea las imágenes */
+img {
+  max-width: 100%; /* Evita que las imágenes se desborden */
+  display: block; /* Elimina el espacio debajo de las imágenes */
+  height: auto;
+}
+
+/* Elimina bordes innecesarios en tablas */
+table {
+  border-collapse: collapse; /* Elimina el espacio entre celdas */
+  width: 100%; /* Asegura que la tabla ocupe todo el ancho disponible */
+}
+
+/* Asegura que los inputs se comporten bien */
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Normaliza la apariencia de los formularios */
+form {
+  display: block;
+  margin: 0;
+}
