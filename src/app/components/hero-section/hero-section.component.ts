@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {AfterViewInit, Component} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
 
 @Component({
