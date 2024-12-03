@@ -9,30 +9,35 @@
   color: white;
 }
 
-.hero-content{
-  max-width: 50%;
+.reservation-content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 45%;
 }
 
 .reservation-content h1{
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   margin-bottom: 1rem;
+  font-weight: 800;
 }
 
 .reservation-content p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: 1rem;
 }
 
 .btn-primary {
   display: inline-block;
-  padding: 0.8rem 1.5rem;
+  padding: 0.8rem 2.5rem;
   background-color: transparent;
   color: #e6a700;
   border: #e6a700 solid 2px;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 0.5rem;
+  border-radius: 50px;
   transition: background 0.3s;
+  width: fit-content;
 }
 
 .btn-primary:hover {
@@ -49,9 +54,11 @@
   .reservation-section {
     flex-direction: column;
     text-align: center;
+    justify-content: space-around;
   }
 
   .reservation-content {
+    align-items: center;
     max-width: 90%;
   }
 
@@ -66,11 +73,19 @@
   .reservation-image {
     margin-top: 2rem;
   }
+
+  .btn-primary {
+    width: 80%;
+  }
 }
 
 @media (max-width: 480px) {
   .reservation-content h1 {
     font-size: 2rem;
+  }
+
+  .reservation-section{
+    padding: 25px;
   }
 
   .reservation-content p {
