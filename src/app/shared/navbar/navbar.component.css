@@ -24,7 +24,7 @@ nav a {
   }
 }
 
-.inicio{
+nav a.active {
   border-bottom: white 2px solid;
 }
 
@@ -58,7 +58,7 @@ nav a {
   transition: filter 0.3s ease-in-out;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 700px) {
   nav {
     display: none;
     flex-direction: column;
