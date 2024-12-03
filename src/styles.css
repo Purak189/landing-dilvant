@@ -1,7 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 /* Estilos globales de normalización */
-
-/* Elimina márgenes y padding por defecto */
 *,
 *::before,
 *::after {
@@ -12,7 +10,7 @@
 
 /* Establece una tipografía base consistente */
 body {
-  font-family: "Roboto", serif; /* O la tipografía que prefieras */
+  font-family: "Roboto", sans-serif; /* O la tipografía que prefieras */
   font-size: 16px; /* Establece el tamaño base de la fuente */
   line-height: 1.5; /* Mejora la legibilidad */
   background-color: #fff; /* Color de fondo predeterminado */
