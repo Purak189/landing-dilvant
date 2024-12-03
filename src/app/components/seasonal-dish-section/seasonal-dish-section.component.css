@@ -1,0 +1,71 @@
+.seasonal-dish {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 5%;
+  background-color: #001405;
+  color: white;
+}
+
+.dish-content {
+  max-width: 50%;
+}
+
+.dish-content h2 {
+
+  font-size: 2.7rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.dish-content p {
+  max-width: 80%;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.dish-image img {
+  max-width: 100%;
+  border-radius: 63px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1024px) {
+  .seasonal-dish {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dish-content {
+    max-width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .dish-image img {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .dish-content h2 {
+    font-size: 2rem;
+  }
+
+  .dish-content p {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dish-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .dish-content p {
+    max-width: 100%;
+    font-size: 0.9rem;
+  }
+}
+
