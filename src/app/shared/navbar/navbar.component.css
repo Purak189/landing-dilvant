@@ -42,6 +42,7 @@ nav a.active {
 .btn-contact-mobile{
   text-decoration: none;
   font-weight: bold;
+  display:none;
 }
 
 .hamburger-menu {
